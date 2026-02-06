@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f4f7;
+}
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.email-list {
+  width: 35%;
+  background: #fff;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.summary-panel {
+  width: 65%;
+  padding: 20px;
+}
+
+li {
+  cursor: pointer;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+#live {
+  color: green;
+}
